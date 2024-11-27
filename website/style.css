@@ -1,0 +1,91 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	display: grid;
+}
+header div
+{
+
+    width:1000px;
+    height:100px;	
+}
+nav
+{
+	background-image: url(back.webp);
+	display:flex;
+	justify-content:space-evenly;
+}
+header nav
+{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+	font-family: Algerian;
+	text-shadow: 2px 2px black;
+
+}
+main
+{
+	margin: 3px;
+	height:2000px;
+	border:2px;
+	display: grid;
+	grid-template-rows:33% 30% ;
+	grid-gap:0.3%;
+}
+header nav a
+{
+	width:20%;
+	text-align:center;
+	padding-top:15px;
+	font-family: Copperplate Gothic Light;
+	letter-spacing: 3px;
+	font-size:0px;
+	color:white;
+	text-decoration:none;
+}
+#s1
+{
+	background-image: url(jb.jpg);
+	grid-gap:0%;
+	background-color: black;
+}
+#s1 div h1
+{
+	padding-top: 10px;
+}
+#s1 div
+{
+	
+	margin-left:4%;
+	margin-top: 20%;
+	text-shadow:0px 0px black ;
+	text-align: center;
+	font-family: Copperplate Gothic Light;
+	letter-spacing: 15px;
+	border-radius: 20px;
+	color:white;
+}
+	#s2
+{
+	/*display:grid;
+	grid-template-columns:110% ;*/
+	margin-top:0px;
+	margin-left: 0px;
+	padding-left: 50px;
+	padding-top: 20px;
+	color: whitesmoke;
+	background-color: black;
+	
+}
+	#s2 div div img
+	{
+		width:80%;
+		height:80%;
+	}
+	#s2d
+	{
+		display:flex;
+	}
